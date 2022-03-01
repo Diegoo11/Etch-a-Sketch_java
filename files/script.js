@@ -85,7 +85,7 @@ reset.onclick = function(){
 }
 
 new_tabla.onclick = function(){
-    new_numer = prompt("digame un numero")
+    new_numer = prompt("digame un numero, no muy grande recomiendo hasta el 30")
     lienso.innerHTML = ""
     for(i=1; i<=new_numer*new_numer; i++){
         let div = document.createElement("div")
